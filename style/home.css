@@ -471,6 +471,12 @@ body {
         padding:8px;
         max-width: 30%; 
     }
+
+    #icon img {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
     
     .copyright p {
         font-size: 7pt;
