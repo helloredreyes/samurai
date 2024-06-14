@@ -228,7 +228,7 @@ body {
     align-items: center;
     align-content: center;
     background: linear-gradient(to bottom, black, #580000);
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 9 / 5;
 }
 
 #pdfviewer {
