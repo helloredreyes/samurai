@@ -362,6 +362,11 @@ body {
 /* header  mobile view */
 
 @media (max-width: 768px) {
+
+    
+    .small-icon {
+        width: 7%;
+    }
     .menu-icon {
         display: block;
     }
@@ -371,6 +376,8 @@ body {
     .menu-dropdown.active {
         display: block;
     }
+
+    /* ----- */
 
     .section p {
         font-size: 10pt;
