@@ -92,6 +92,10 @@ body {
     transform: scale(1.2);
 }
 
+.small-icon:active {
+    background-color: #E1A96C;
+}
+
 .menu-dropdown a {
     list-style: none;
     padding: 25px;
