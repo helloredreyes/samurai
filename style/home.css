@@ -92,10 +92,6 @@ body {
     transform: scale(1.2);
 }
 
-.small-icon:active {
-    background-color: #E1A96C;
-}
-
 .menu-dropdown a {
     list-style: none;
     padding: 25px;
@@ -470,17 +466,6 @@ body {
     .socialicon {
         padding:8px;
         max-width: 30%; 
-    }
-
-    #icon img {
-        width: 30px;
-        height: 30px;
-        padding: 10px;
-    }
-
-    .mainlogo {
-        max-width: 100%; /* Optional: set a max-width for larger screens */
-        padding: 5px;
     }
     
     .copyright p {
