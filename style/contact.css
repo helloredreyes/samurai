@@ -445,6 +445,10 @@ body {
         padding: 10px;
     }
 
+    .specials > div p {
+        font-size: 8pt;
+    }
+
 /* OPERATION TIME */
 
     .centered {
