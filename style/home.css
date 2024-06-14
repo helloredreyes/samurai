@@ -442,6 +442,7 @@ body {
         padding: 40px;
     }
 
+    /* FOOOTER */
     .footer1 {
         padding: 10px;
         color: #fff;
@@ -459,12 +460,12 @@ body {
     
     .mainlogo {
         max-width: 50%;
-        padding: 15px;
+        padding: 10px;
     }
     
     
-    .socialicon {
-        padding:8px;
+    .socialhere {
+        padding:5px;
         max-width: 30%; 
     }
     
