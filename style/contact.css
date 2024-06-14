@@ -422,6 +422,10 @@ body {
         padding: 10px;
     }
 
+    #special1 p{
+        font-size: 8pt;
+    }
+    
     .centered {
         padding: 50px;
     }
