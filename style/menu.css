@@ -228,6 +228,7 @@ body {
     align-items: center;
     align-content: center;
     background: linear-gradient(to bottom, black, #580000);
+    aspect-ratio: 9 / 16;
 }
 
 #pdfviewer {
@@ -266,6 +267,7 @@ body {
 
 .tablinks {
     font-family: 'Times New Roman', Times, serif;
+    color:#000000;
 }
 
 /* Create an active/current tablink class */
@@ -283,7 +285,7 @@ body {
 }
 
 .tabcontent h3 {
-    color: #f1f1f1;
+    color: #ffffff;
     text-align: center;
     font-size: 12pt;
     padding: 20px;
