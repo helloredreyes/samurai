@@ -336,6 +336,16 @@ body {
 
 /* header  mobile view */
 @media (max-width: 768px) {
+    .header {
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .header::before {
+        background-position: center; 
+        background-size: cover;
+    }
+    
     .menu-icon {
         display: block;
     }
