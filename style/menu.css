@@ -52,7 +52,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("images/sashimibanner");
+    background-image: url("image/sashimibanner");
     background-size: cover;
     opacity: 0.4;
     z-index: -1;
@@ -346,6 +346,14 @@ body {
 
 /* specials mobile view */
 @media (max-width: 768px){
+
+    .linkhere p{
+        font-size: 6pt;
+    }
+
+    .tab button {
+        font-size: 10pt;
+    }
 
     .pdfmenu {
         padding: 20px;
