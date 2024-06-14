@@ -372,12 +372,9 @@ body {
     .section p {
         font-size: 10pt;
         text-align: center;
-        }
+        padding: 10px;
     }
 
-/* portraits  mobile view */
-
-@media (max-width: 768px) {
     .portraits {
         flex-direction: column;
         align-items: center;
@@ -406,12 +403,8 @@ body {
         width: 100%;
         aspect-ratio: 2 / 2;
     }
-        
-}
 
 /* lanterns  mobile view */
-
-@media (max-width: 768px) {
     .lanterns {
         padding: 10px;
     }
@@ -428,13 +421,8 @@ body {
     .lanterns p {
         font-size: 9pt; /* Smaller font size for mobile view */
     }
-}
-
-/* ADD STYLE TO DELAY */
-
 
 /* gallery mobile view */
-@media (max-width: 768px) {
     .gallery {
         padding: 40px;
     }
@@ -470,6 +458,8 @@ body {
         letter-spacing: 1.2pt;
     }
 }
+
+/* END OF MOBILE VIEW */
 
 /* ANIMATION KEYFRAMES */
 @keyframes fadeInFromRight {
