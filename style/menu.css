@@ -347,14 +347,6 @@ body {
 /* specials mobile view */
 @media (max-width: 768px){
 
-    .linkhere p{
-        font-size: 6pt;
-    }
-
-    .tab button {
-        font-size: 10pt;
-    }
-
     .pdfmenu {
         padding: 20px;
     }
@@ -500,5 +492,3 @@ body {
         text-align: center;
         }
 }
-
-
