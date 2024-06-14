@@ -438,7 +438,7 @@ body {
 /* OPERATION TIME */
 
     .centered {
-    padding: 20px;
+    padding: 50px;
    
     }
     .centered h5 {
@@ -450,7 +450,7 @@ body {
     }
 
     .centered p {
-    font-size: 12pt;
+    font-size: 9pt;
     }
 
     .copyright p {
