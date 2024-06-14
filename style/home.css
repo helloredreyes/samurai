@@ -477,6 +477,11 @@ body {
         height: 30px;
         padding: 10px;
     }
+
+    .mainlogo {
+        max-width: 100%; /* Optional: set a max-width for larger screens */
+        padding: 5px;
+    }
     
     .copyright p {
         font-size: 7pt;
