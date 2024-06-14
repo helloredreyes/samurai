@@ -386,10 +386,10 @@ body {
     }
 
     /* ----- */
-
     .section p {
         font-size: 10pt;
-        padding: 2px;
+        padding: 5px;
+        max-width: 90%;
     }
 
     .portraits {
