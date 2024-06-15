@@ -493,7 +493,6 @@ body {
 
     /* MAIN IPAD VIEW */
     .map {
-        flex-direction: column;
         padding: 20px;
         justify-content: center;
         align-items: center;
@@ -516,11 +515,6 @@ body {
         padding: 20px;
     }
 
-    .icn {
-        display: flex;
-        flex-direction: column;
-    }
-
     .icn a {
         display: flex;
         padding: 30px;
@@ -532,8 +526,8 @@ body {
     .specials {
         display: flex;
         flex-direction: row;
-        column-gap: 5px;
-        padding: 5px;
+        column-gap: 15px;
+        padding: 15px;
     }
 
     .specials > div {
