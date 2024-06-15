@@ -331,9 +331,7 @@ body {
     padding-bottom: 30px;
 }
 
-/* mobile view */
 /* MOBILE VIEW */
-
 /* header  mobile view */
 @media (max-width: 768px) {
     /* header */
@@ -364,10 +362,6 @@ body {
         font-size: 10pt;
         text-align: center;
         }
-
-    .header::before {
-        background-position: center;
-    }
 
     .map {
         flex-direction: column;
@@ -478,6 +472,136 @@ body {
     }
 }
 /* END OPERATION TIME */
+
+/* IPAD VIEW -----------------------------------------*/
+
+@media (max-width: 1024px) {
+    /* HEADER IPAD VIEW */
+    .header {
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .header::before {
+        background-position: center; 
+        background-size: cover;
+    }
+    
+    .small-icon {
+        width: 6%;
+    }
+
+    /* MAIN IPAD VIEW */
+    .map {
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .google {
+        width: 40%;
+        flex-direction: column;
+        align-items: flex-end; 
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .google p {
+        font-size: 9pt;
+    }
+    
+    .dmap {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .icn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icn a {
+        display: flex;
+        padding: 30px;
+    }
+
+
+ 
+/* GRIDS */
+    .specials {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        padding: 5px;
+    }
+
+    .specials > div {
+        padding: 5%;
+    }
+
+    .specials > div p {
+        font-size: 8pt;
+    }
+
+/* OPERATION TIME */
+
+    .centered {
+    padding: 50px;
+   
+    }
+    .centered h5 {
+    font-size: 20pt;
+    }
+
+    .centered h3 {
+    font-size: 25pt;;
+    }
+
+    .centered p {
+    font-size: 9pt;
+    }
+
+    .delon h3 {
+        font-size: 8pt;
+        text-align: left;
+    }
+
+    /* FOOOTER IPAD VIEW*/
+    .footer1 {
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .addresshere p{
+        font-size: 8pt;
+    }
+    
+    .logohere {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .mainlogo {
+        max-width: 50%;
+        padding: 10px;
+    }
+    
+    
+    .socialhere {
+        padding:15px;
+        max-width: 30%; 
+    }
+    
+    .copyright p {
+        font-size: 7pt;
+        letter-spacing: 1.2pt;
+    }
+}
+
+/* --------------------------------------------------- */
+
 /* ANIMATION KEYFRAMES */
 @keyframes fadeInFromRight {
     from {
