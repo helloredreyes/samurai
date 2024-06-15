@@ -380,6 +380,19 @@ body {
         background-size: cover;
     }
     
+    .small-icon {
+        width: 7%;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-dropdown {
+        display: none;
+    }
+    .menu-dropdown.active {
+        display: block;
+    }
+
     .pdfmenu {
         padding: 20px;
     }
