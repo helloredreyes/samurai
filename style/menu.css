@@ -472,7 +472,6 @@ body {
 }
 
 /* IPAD VIEW -----------------------------------------*/
-/* IPAD VIEW--------------------------------------------*/
 
 @media (max-width: 1024px) {
     /* HEADER IPAD VIEW */
@@ -489,7 +488,7 @@ body {
     .small-icon {
         width: 6%;
     }
-    
+
     /* FOOOTER IPAD VIEW*/
     .footer1 {
         padding: 10px;
