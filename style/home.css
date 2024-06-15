@@ -396,6 +396,7 @@ body {
         flex-direction: column;
         align-items: center;
         height: auto;
+
     }
 
     .title {
@@ -491,15 +492,6 @@ body {
     .small-icon {
         width: 6%;
     }
-    .menu-icon {
-        display: block;
-    }
-    .menu-dropdown {
-        display: none;
-    }
-    .menu-dropdown.active {
-        display: block;
-    }
 
     /* ----- */
     .section p {
@@ -514,20 +506,30 @@ body {
         height: auto;
     }
 
+    .portrait1 {
+        padding: 10px;
+    }
+    
+    .portrait1 img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2 / 2 ;
+    }
+    
+
     .title {
         width: 100%;
     }
 
     .title h3 {
-        writing-mode: horizontal-tb;
-        transform: rotate(0);
-        margin-bottom: 20px;
+        writing-mode: vertical-rl;;
+        transform: rotate(180deg);
+        margin: 0 auto;
         font-size: 8pt;
-        padding-top: 20px;
+        padding-top: 10px;
         letter-spacing: 1pt;
     }
 
-        
     .lanterns {
         padding: 20px;
     }
