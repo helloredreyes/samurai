@@ -388,7 +388,7 @@ body {
     /* ----- */
     .section p {
         font-size: 8pt;
-        padding: 5px;
+        padding: 15px;
         max-width: 90%;
     }
 
@@ -476,112 +476,6 @@ body {
     }
 }
 
-/* IPAD VIEW--------------------------------------------*/
-
-@media (max-width: 1024px) {
-    .header {
-        background-position: center; 
-        background-size: cover;
-    }
-
-    .header::before {
-        background-position: center; 
-        background-size: cover;
-    }
-    
-    .small-icon {
-        width: 6%;
-    }
-
-    /* ----- */
-    .section p {
-        font-size: 12pt;
-        padding: 15px;
-        max-width: 100%;
-    }
-
-    /* PORTRAITS */
-
-    .portraits {
-        flex-direction: row;
-        align-items: center;
-        height: auto;
-    }
-
-    .portrait1 {
-        padding: 10px;
-    }
-    
-    .portrait1 img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 4 / 7 ;
-    }
-    
-
-    .title h3 {
-        writing-mode: vertical-rl;;
-        transform: rotate(180deg);
-        margin: 0 auto;
-        font-size: 8pt;
-        letter-spacing: 1pt;
-    }
-
-    .lanterns {
-        padding: 20px;
-    }
-
-    .lanterns h3, .lanterns p {
-        width: 100%;
-        padding: 20px
-    }
-
-    .lanterns h3 {
-        font-size: 15pt; /* Smaller font size for mobile view */
-    }
-
-    .lanterns p {
-        font-size: 12pt; /* Smaller font size for mobile view */
-    }
-
-    .gallery {
-        padding: 50px;
-    }
-
-    /* FOOOTER */
-    .footer1 {
-        padding: 10px;
-        color: #fff;
-        text-align: center;
-    }
-    
-    .addresshere p{
-        font-size: 8pt;
-    }
-    
-    .logohere {
-        flex: 1;
-        text-align: center;
-    }
-    
-    .mainlogo {
-        max-width: 50%;
-        padding: 10px;
-    }
-    
-    
-    .socialhere {
-        padding:15px;
-        max-width: 30%; 
-    }
-    
-    .copyright p {
-        font-size: 7pt;
-        letter-spacing: 1.2pt;
-    }
-}
-
-/* END OF IPAD VIEW------------------------------------ */
 /* ANIMATION KEYFRAMES */
 @keyframes fadeInFromRight {
     from {
