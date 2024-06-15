@@ -475,6 +475,114 @@ body {
     }
 }
 
+/* IPAD VIEW--------------------------------------------*/
+
+@media (max-width: 1024px) {
+    .header {
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .header::before {
+        background-position: center; 
+        background-size: cover;
+    }
+    
+    .small-icon {
+        width: 8%;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-dropdown {
+        display: none;
+    }
+    .menu-dropdown.active {
+        display: block;
+    }
+
+    /* ----- */
+    .section p {
+        font-size: 12pt;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .portraits {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .title h3 {
+        writing-mode: horizontal-tb;
+        transform: rotate(0);
+        margin-bottom: 20px;
+        font-size: 8pt;
+        padding-top: 20px;
+        letter-spacing: 1pt;
+    }
+
+        
+    .lanterns {
+        padding: 20px;
+    }
+
+    .lanterns h3, .lanterns p {
+        width: 100%;
+        padding: 20px
+    }
+
+    .lanterns h3 {
+        font-size: 15pt; /* Smaller font size for mobile view */
+    }
+
+    .lanterns p {
+        font-size: 12pt; /* Smaller font size for mobile view */
+    }
+
+    .gallery {
+        padding: 50px;
+    }
+
+    /* FOOOTER */
+    .footer1 {
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .addresshere p{
+        font-size: 8pt;
+    }
+    
+    .logohere {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .mainlogo {
+        max-width: 50%;
+        padding: 10px;
+    }
+    
+    
+    .socialhere {
+        padding:15px;
+        max-width: 30%; 
+    }
+    
+    .copyright p {
+        font-size: 7pt;
+        letter-spacing: 1.2pt;
+    }
+}
+
+/* END OF IPAD VIEW------------------------------------ */
 /* ANIMATION KEYFRAMES */
 @keyframes fadeInFromRight {
     from {
