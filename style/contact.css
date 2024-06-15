@@ -528,7 +528,7 @@ body {
 
 
  
-/* GRIDS */
+/* GRIDS ipad view */
     .specials {
         display: flex;
         flex-direction: row;
@@ -542,6 +542,12 @@ body {
 
     .specials > div p {
         font-size: 8pt;
+    }
+
+    .specials > div img {
+        padding: 5px;
+        max-width: 100%;
+        height: auto;
     }
 
 /* OPERATION TIME */
