@@ -500,6 +500,8 @@ body {
         max-width: 100%;
     }
 
+    /* PORTRAITS */
+
     .portraits {
         flex-direction: row;
         align-items: center;
@@ -513,20 +515,15 @@ body {
     .portrait1 img {
         width: 100%;
         height: auto;
-        aspect-ratio: 2 / 2 ;
+        aspect-ratio: 4 / 7 ;
     }
     
-
-    .title {
-        width: 100%;
-    }
 
     .title h3 {
         writing-mode: vertical-rl;;
         transform: rotate(180deg);
         margin: 0 auto;
         font-size: 8pt;
-        padding-top: 10px;
         letter-spacing: 1pt;
     }
 
