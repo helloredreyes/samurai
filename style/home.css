@@ -387,7 +387,7 @@ body {
 
     /* ----- */
     .section p {
-        font-size: 10pt;
+        font-size: 8pt;
         padding: 5px;
         max-width: 90%;
     }
@@ -432,11 +432,11 @@ body {
     }
 
     .lanterns h3 {
-        font-size: 12pt; /* Smaller font size for mobile view */
+        font-size: 10pt; /* Smaller font size for mobile view */
     }
 
     .lanterns p {
-        font-size: 9pt; /* Smaller font size for mobile view */
+        font-size: 8pt; /* Smaller font size for mobile view */
     }
 
     .gallery {
