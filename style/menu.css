@@ -368,7 +368,7 @@ body {
     padding-bottom: 30px;
 }
 
-/* specials mobile view */
+/* MOBILE VIEW */
 @media (max-width: 768px){
     .header {
         background-position: center; 
@@ -471,6 +471,59 @@ body {
     }
 }
 
+/* IPAD VIEW -----------------------------------------*/
+/* IPAD VIEW--------------------------------------------*/
+
+@media (max-width: 1024px) {
+    /* HEADER IPAD VIEW */
+    .header {
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .header::before {
+        background-position: center; 
+        background-size: cover;
+    }
+    
+    .small-icon {
+        width: 6%;
+    }
+    
+    /* FOOOTER IPAD VIEW*/
+    .footer1 {
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .addresshere p{
+        font-size: 8pt;
+    }
+    
+    .logohere {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .mainlogo {
+        max-width: 50%;
+        padding: 10px;
+    }
+    
+    
+    .socialhere {
+        padding:15px;
+        max-width: 30%; 
+    }
+    
+    .copyright p {
+        font-size: 7pt;
+        letter-spacing: 1.2pt;
+    }
+}
+
+/* --------------------------------------------------- */
 /* ANIMATION KEYFRAMES */
 @keyframes fadeInFromRight {
     from {
